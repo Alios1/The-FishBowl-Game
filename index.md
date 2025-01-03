@@ -2,11 +2,11 @@
 
 **QuickLinks**
 
-🍏 [AppStore](http://example.com)
+🍏 [AppStore](https://apps.apple.com/app/the-fishbowl-game/id6484067588)
 
-**♪**   [TikTok](http://example.com)
+**♪**   [TikTok](https://www.tiktok.com/@fishbowlgame?_t=ZM-8skMpLDDd7l&_r=1)
 
-📷 [Instagram](http://example.com)
+📷 [Instagram](https://www.instagram.com/thefishbowlgame/profilecard/?igsh=bTN1djRsaGJ4cXJs)
 
 Get ready for some fun with the FishBowl Game! It's like charades and a secret word game had a fabulous baby!
 
