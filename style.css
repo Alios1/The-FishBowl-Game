@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light Grey background */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 80px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
+
+.app-icon {
+    margin-top: 40px; /* Add spacing above the icon */
+  
+}
+
+.app-icon img {
+    width: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    padding: 50px 20px;
+    background-color: #f0f0f0; /* Light Grey background */
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.app-store-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007aff; /* Apple blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f0f0f0; /* Light Grey background */
+    padding: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.options a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-text {
+        padding-right: 0;
+    }
+
+    .app-preview {
+        margin-top: 30px;
+    }
+
+    .feature {
+        width: auto;
+        margin: 15px;
+    }
+}
